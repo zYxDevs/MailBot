@@ -379,7 +379,7 @@ async def broad(e):
             done += 1
         except Exception:
             error += 1
-    await xx.edit("Broadcast completed.\nSuccess: {}\nFailed: {}".format(done, error))
+    await xx.edit(f"Broadcast completed.\nSuccess: {done}\nFailed: {error}")
 
 
 log.info("\nBot has started.\n(c) @xditya\n")
